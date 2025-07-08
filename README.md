@@ -114,7 +114,11 @@ Accuracy on COCO vehicle classes
 Simplicity of integration without training
 
 📈 Summary Report Example
+
 Image: test1.jpg
+
 Cars: 4
+
 Trucks: 1
+
 Motorcycles: 2
