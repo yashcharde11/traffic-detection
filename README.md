@@ -39,9 +39,12 @@ git clone https://github.com/yashcharde11/traffic-detection
 cd traffic-detection-assignment
 
 Step 2: Install Dependencies
+
 pip install -r requirements.txt
+
 Or install manually:
 pip install opencv-python numpy matplotlib torch torchvision ultralytics
+
 ▶️ How to Run
 🔍 For Test Images
 python main.py
@@ -74,9 +77,10 @@ Total vehicle count by category
 Annotated image outputs
 
 💡 Bonus Innovations
-📸 Automatic Traffic Snapshot Generator: Saves video frames when vehicle count exceeds threshold.
 
-🚗 Speed Estimation Using Object Size: Estimates relative speed of vehicles by comparing bounding box size change across frames (mock logic).
+1. Automatic Traffic Snapshot Generator: Saves video frames when vehicle count exceeds threshold.
+
+2. Speed Estimation Using Object Size: Estimates relative speed of vehicles by comparing bounding box size change across frames (mock logic).
 
 📊 Sample Output
 Images with bounding boxes and labels
