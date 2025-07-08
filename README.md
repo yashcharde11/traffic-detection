@@ -33,7 +33,9 @@ traffic-detection-assignment/
     └── presentation_slides.pdf     # Final presentation (10 minutes)
 🛠 Setup Instructions
 Step 1: Clone the Repo
-git clone https://github.com/your-username/traffic-detection-assignment.git
+
+git clone https://github.com/yashcharde11/traffic-detection
+
 cd traffic-detection-assignment
 
 Step 2: Install Dependencies
