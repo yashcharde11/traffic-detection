@@ -12,26 +12,35 @@ Libraries: OpenCV, NumPy, Matplotlib
 ML Framework: Ultralytics YOLOv8 (pre-trained weights)
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 traffic-detection-assignment/
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── main.py                          # Image detection script
+
 ├── innovative_video_processor.py   # Video + Innovation logic
+
 ├── detector.py                     # Detection helper functions
+
 ├── utils.py                        # Utilities (if needed)
+
 ├── data/
 │   ├── test_images/                # 10 test images
 │   └── traffic_video.mp4           # Video file (for innovation)
+
 ├── output/
 │   ├── processed_images/           # Annotated test image results
 │   └── snapshots/                  # Snapshots from video processing
+
 └── docs/
     ├── technical_report.pdf        # 2-page report
     └── presentation_slides.pdf     # Final presentation (10 minutes)
+    
 🛠 Setup Instructions
+
 Step 1: Clone the Repo
 
 git clone https://github.com/yashcharde11/traffic-detection
