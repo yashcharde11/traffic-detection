@@ -21,7 +21,7 @@ traffic-detection-assignment/
 
 ├── main.py                          # Image detection script
 
-├── innovative_video_processor.py   # Video + Innovation logic
+├── video_processor.py   # Video + Innovation logic
 
 ├── detector.py                     # Detection helper functions
 
@@ -61,16 +61,19 @@ Or install manually:
 pip install opencv-python numpy matplotlib torch torchvision ultralytics
 
 ▶️ How to Run
+
 🔍 For Test Images
+
 python main.py
+
 Loads test images from data/test_images/
 
-Detects vehicles
-
-Saves output to output/processed_images/
+Detects vehicles and saves output to output/processed_images/
 
 🎥 For Video (with Innovations)
-python innovative_video_processor.py
+
+python video_processor.py
+
 Processes video: data/traffic_video.mp4
 
 Detects vehicles per frame
@@ -98,6 +101,7 @@ Annotated image outputs
 2. Speed Estimation Using Object Size: Estimates relative speed of vehicles by comparing bounding box size change across frames (mock logic).
 
 📊 Sample Output
+
 Images with bounding boxes and labels
 
 Confidence scores shown next to each vehicle
@@ -107,6 +111,7 @@ Vehicle counts stored in filename/summaries
 Snapshots saved automatically for heavy traffic scenes in video
 
 📄 Deliverables
+
 Code (Python scripts)
 
 requirements.txt
@@ -120,6 +125,7 @@ Technical report (docs/technical_report.pdf)
 Presentation slides (docs/presentation_slides.pdf)
 
 🧠 Model Selection
+
 YOLOv8 (n model) from Ultralytics chosen for its:
 
 Speed and real-time capability
